@@ -1,0 +1,1386 @@
+window.HUAZI_META = {
+ "updated": "2026-08-18",
+ "total": 41,
+ "complete": 41,
+ "groupOrder": [
+  "籌備／幹部",
+  "企業行銷組",
+  "AI&軟體組",
+  "工廠數位轉型組",
+  "企業工商組",
+  "工程組"
+ ],
+ "groups": {
+  "企業行銷組": {
+   "audience": [
+    "以高客單、高複雜度、需要整合行銷戰力的企業為優先開發方向。",
+    "零售品牌｜電商 | 上架實體通路",
+    "傳統產業｜二代接班 | 數位轉型",
+    "連鎖服務業 |",
+    "營業額 3,000 萬以上",
+    "北部、中部為主；年營收 3,000 萬～數億",
+    "連鎖餐飲、美業、教育訓練、地方品牌與專業服務業",
+    "具 b2C 電商能力，或已進入／準備進入實體通路",
+    "企業主面臨交棒、數轉、品牌升級或 AI 自動化導入",
+    "需要預約系統、口碑聲量、影片內容、社群廣告與加盟擴張",
+    "需要官網、廣告、社群、影音、會員經營與導流整合",
+    "需要從企業形象、內容曝光到流程優化的整合方案",
+    "適合用「品牌曝光＋轉換工具＋內容持續經營」打整合戰",
+    "連鎖服務業"
+   ],
+   "wanted": [
+    "讓我們的行銷產業鏈更完整，能接更大的案、打更深的市場。",
+    "品牌設計公司",
+    "活動公關公司",
+    "包裝印刷業者",
+    "品牌識別、包裝視覺、命名與設計策略",
+    "活動企劃、媒體曝光、話題操作與實體串聯",
+    "商品包裝、陳列物、展會物料與打樣落地",
+    "培訓開課單位",
+    "各大平台業者",
+    "實體通路業者",
+    "招生轉換、課程行銷、內容共創與名單經營",
+    "電商平台、媒體平台、SaaS 與廣告平台合作",
+    "上架資源、零售合作、展店與通路拓展機會",
+    "補齊這 6 類夥伴後，我們能更完整地承接「品牌策略 → 流量導入 → 內容轉換 → 上架落地」的一條龍企業案。"
+   ],
+   "tagline": "以企業成長為核心，提供從品牌曝光、流量導入、預約轉換、影音內容到加盟與海外市場連結的整合火力。"
+  },
+  "AI&軟體組": {
+   "audience": [
+    "鎖定有數位轉型、效率提升與 AI 導入需求的七大客群。",
+    "想數位轉型的中小企業主",
+    "流程自動化、減少人力",
+    "製造業",
+    "智慧工廠、ERP、IoT 需求",
+    "連鎖零售・餐飲・美業品牌",
+    "POS、CRM、LINE OA",
+    "電商與品牌",
+    "行銷自動化、Chatbot、BI",
+    "有海外佈局的跨國企業",
+    "網路、資安、企業出海",
+    "上市櫃企業",
+    "IPO、ERP、資安治理",
+    "政府・教育・醫療機構"
+   ],
+   "wanted": [
+    "以 AI 落地趨勢盤點缺口，優先補齊關鍵專業，打造一站式服務。",
+    "大數據資料管理",
+    "AI 的燃料 ・ 資料清整治理",
+    "視覺・產品設計",
+    "UI/UX ・ 使用者體驗",
+    "機器學習工程師",
+    "模型訓練 ・ MLOps 部署",
+    "邊緣運算 IoT 專家",
+    "AI 影音・行銷企劃",
+    "智慧硬體 ・ 感測整合",
+    "數位人 ・ 內容自動生成",
+    "智慧醫療系統整合",
+    "醫療 AI ・ 智慧場域",
+    "ESG 碳盤查師"
+   ],
+   "tagline": "12 位專業夥伴 ・ 從顧問、開發到導入，為企業提供 AI 一站整合火力。"
+  },
+  "企業工商組": {
+   "audience": [
+    "傳產二代・接班人",
+    "成長停滯",
+    "同時面對成長停滯與世代交棒 的家族企業主",
+    "數位轉型",
+    "銀行融資",
+    "地 區",
+    "年營收",
+    "中部・中南部",
+    "3,000 萬 – 數億",
+    "股權傳承",
+    "類 型",
+    "角 色",
+    "傳統製造・家族企業",
+    "現任老闆／二代"
+   ],
+   "wanted": [
+    "銀行企金／融資窗口",
+    "勞資顧問",
+    "接班核心：銀行往來與放款",
+    "勞健保・勞基法・留才制度落地",
+    "地政士（不動產・土地移轉）",
+    "政府補助計畫顧問",
+    "家族最大資產是土地廠房",
+    "SBIR・海外行銷・數位轉型補助",
+    "企業教練",
+    "OGSM・業務培訓"
+   ],
+   "tagline": ""
+  }
+ },
+ "deckUrl": "https://docs.google.com/presentation/d/1j9lY9x0Iswm-aR6bdR7NBVLIFX7g100DEz7DNt4hXnw/edit"
+};
+window.HUAZI_MEMBERS = [
+ {
+  "no": "",
+  "name": "張崇德",
+  "nickname": "Thomas",
+  "trade": "小火車 Helper/光纖通訊",
+  "tags": [],
+  "company": "連訊通信 Acon Optics 6820",
+  "group": "籌備／幹部",
+  "basic": "敦陽科技,華電聯網,神腦國際,精誠資訊業務經理.",
+  "ideal": "大型企業機房(如台積電)統包商,自建IDC業者(中華電,台哥大,是方).",
+  "dream": "Google, AWS, Microsoft, Meta資料中心骨幹網路(Cabling)廠商.",
+  "have": [
+   "花東旅遊,特色禮贈品,在地工程資源."
+  ],
+  "want": [
+   "美加,東南亞在地系統整合商(for AI data center規劃建置)."
+  ],
+  "expertise": [
+   "母集團連展投控為台灣上櫃公司,連訊通信目前",
+   "興櫃,從事AI資料中心關鍵零組件,無損音響,矽光子CPO.",
+   "24年光纖通訊元件研發生產經驗,少數在台灣有光跳線工廠的公司.",
+   "訊客戶遍布全球,為電信業及數據中心業者光纖產品軍火庫",
+   "如Tesla AI, Ebay; Verizon, NTT DATA, 中華電信.",
+   "海外AI DC規劃建置"
+  ],
+  "slideUrl": "https://docs.google.com/presentation/d/1j9lY9x0Iswm-aR6bdR7NBVLIFX7g100DEz7DNt4hXnw/edit#slide=id.p1",
+  "complete": true
+ },
+ {
+  "no": "",
+  "name": "黃俊凱",
+  "nickname": "",
+  "trade": "創會主席/華資籌備大使",
+  "tags": [
+   "無線網路"
+  ],
+  "company": "蓋斯克科技 創辦人",
+  "group": "籌備／幹部",
+  "basic": "直客\n辦公室80坪以上公司總務",
+  "ideal": "業務人脈圈\n商空設計師(旅館/商辦/月子中心/醫美診所)\n商空音響/政府補助顧問/Ai廠商",
+  "dream": "智慧工廠轉型顧問",
+  "have": [
+   "天一愛 TIANYIAI - 台灣第一漢方女性調理品牌",
+   "年節團購方案"
+  ],
+  "want": [
+   "A辦商空設計師",
+   "工廠設備產業鏈",
+   "工廠數位轉型顧問",
+   "政府補助顧問"
+  ],
+  "expertise": [
+   "服務超過1200家 企業資訊設備建置",
+   "國際原廠Ubiquit無線網路/Mikrotik企業網路",
+   "MOXA工業級無線網路認證",
+   "新北市電腦公會理事"
+  ],
+  "slideUrl": "https://docs.google.com/presentation/d/1j9lY9x0Iswm-aR6bdR7NBVLIFX7g100DEz7DNt4hXnw/edit#slide=id.p0",
+  "complete": true
+ },
+ {
+  "no": "001",
+  "name": "鄭紫騫",
+  "nickname": "",
+  "trade": "網站架設",
+  "tags": [
+   "好搜尋",
+   "好操作",
+   "高曝光"
+  ],
+  "company": "合拍設計 負責人",
+  "group": "企業行銷組",
+  "basic": "記帳士、商務中心、品牌顧問、\n廣告投放、商空設計師、\nPOS機廠商、第三方支付廠商",
+  "ideal": "想做自媒體打造個人IP",
+  "dream": "連鎖加盟顧問、餐飲顧問",
+  "have": [
+   "日本留學通路",
+   "連鎖藥局通路",
+   "泰式連鎖餐飲業者"
+  ],
+  "want": [
+   "品牌／平面設計師",
+   "視覺設計 Freelancer"
+  ],
+  "expertise": [
+   "燒賣研究所銷售頁製作/ 廣告素材優化講師",
+   "中華流通顧問協會流通顧問師 / 115城鄉產業高值發展顧問",
+   "電商銷售頁製作、優化",
+   "形象 / 電商 / 客製化網站製作 / 行銷顧問 /"
+  ],
+  "slideUrl": "https://docs.google.com/presentation/d/1j9lY9x0Iswm-aR6bdR7NBVLIFX7g100DEz7DNt4hXnw/edit#slide=id.p6",
+  "complete": true
+ },
+ {
+  "no": "002",
+  "name": "呂欽元",
+  "nickname": "",
+  "trade": "加盟連鎖顧問",
+  "tags": [
+   "您的加盟連鎖事業加速器"
+  ],
+  "company": "雲岳國際 負責人",
+  "group": "企業行銷組",
+  "basic": "餐飲業",
+  "ideal": "3-7家分店的餐飲業",
+  "dream": "有想要往上市櫃衝刺的品牌",
+  "have": [
+   "團購主",
+   "店面資源",
+   "免費的資本講座"
+  ],
+  "want": [
+   "旅遊型的KOL",
+   "對餐飲加盟有興趣的人",
+   "想賣的飲料品牌"
+  ],
+  "expertise": [
+   "加盟連鎖相關產業超過10年經驗",
+   "累積實際落地展店超過400間",
+   "從總部建製，到加盟運營，超過30個品牌"
+  ],
+  "slideUrl": "https://docs.google.com/presentation/d/1j9lY9x0Iswm-aR6bdR7NBVLIFX7g100DEz7DNt4hXnw/edit#slide=id.p7",
+  "complete": true
+ },
+ {
+  "no": "014",
+  "name": "林姵秀",
+  "nickname": "",
+  "trade": "LINE@客製化預約系統",
+  "tags": [],
+  "company": "錡龍科技 業務經理",
+  "group": "企業行銷組",
+  "basic": "有需要用LINE@做客戶行銷/預約/會員資料整合的客製化服務企業",
+  "ideal": "有預算50萬以上的軟硬體客製化系統",
+  "dream": "連鎖企業．100萬以上預算的客戶",
+  "have": [
+   "團體服設計公司",
+   "餐飲業文宣設計",
+   "豆類製品製造廠"
+  ],
+  "want": [
+   "需要用手機LINE@做客服/資訊整合的系統",
+   "用手寫單據的傳統產業及店家"
+  ],
+  "expertise": [
+   "會員預約 ⬥課程預約 ⬥會議預約",
+   "報到系統 ⬥叫號系統 ⬥服務預約",
+   "LINE@官方帳號→網頁→預約→LINE通知推播→報價系統→電商購物→多元支付→電子發票→合約簽核"
+  ],
+  "slideUrl": "https://docs.google.com/presentation/d/1j9lY9x0Iswm-aR6bdR7NBVLIFX7g100DEz7DNt4hXnw/edit#slide=id.p10",
+  "complete": true
+ },
+ {
+  "no": "041",
+  "name": "劉道中",
+  "nickname": "",
+  "trade": "網路聲量行銷 ⬥論壇(Dcard/PTT/Mobile01) ⬥Threads ⬥FB社團 ⬥ChatGPT SEO",
+  "tags": [],
+  "company": "確認鍵網路行銷 業務顧問發展部 副總監",
+  "group": "企業行銷組",
+  "basic": "電商品牌\n零售通路品牌\n個人品牌",
+  "ideal": "廣告&行銷代理商",
+  "dream": "集團品牌檔期專案",
+  "have": [
+   "輝葉期下品牌-HYD的資源",
+   "泰國醫美資源"
+  ],
+  "want": [
+   "想要嘗試口碑操作的品牌主"
+  ],
+  "expertise": [
+   "全台灣前兩大數據系統(Keypo/Opview)",
+   "團隊擁有TVBS+Dcard媒體背景，善於議題行銷",
+   "有自己的餐飲品牌的行銷公司-李鐵柱重慶老火鍋",
+   "代表客戶:MOMO/蝦皮/台塑生醫/新光三越/UBER EAT"
+  ],
+  "slideUrl": "https://docs.google.com/presentation/d/1j9lY9x0Iswm-aR6bdR7NBVLIFX7g100DEz7DNt4hXnw/edit#slide=id.p9",
+  "complete": true
+ },
+ {
+  "no": "048",
+  "name": "陳聖恩",
+  "nickname": "SHAWN",
+  "trade": "",
+  "tags": [
+   "廣告拍攝",
+   "活動紀錄",
+   "紀錄片製作"
+  ],
+  "company": "玖伊絲影像有限公司 負責人",
+  "group": "企業行銷組",
+  "basic": "● 預算3萬以上拍攝需求",
+  "ideal": "● 長期經營YT，短影音並有意合作年度案\n● 廣告代理商/經營影音類行銷公司",
+  "dream": "● 品牌年度專案\n● 品牌顧問公司",
+  "have": [
+   "餐酒館資源",
+   "露營區老闆"
+  ],
+  "want": [
+   "廣告代理商/公關公司/品牌顧問",
+   "3C廠商行銷端/負責人",
+   "製藥廠"
+  ],
+  "expertise": [
+   "一條龍式影音製作（前製/企劃/排成/拍攝/後製）",
+   "為客戶量身定做專屬影音行銷",
+   "曾與數字王國Digital Spark, VS Media共同執行鄧麗君時裝秀",
+   "代表客戶："
+  ],
+  "slideUrl": "https://docs.google.com/presentation/d/1j9lY9x0Iswm-aR6bdR7NBVLIFX7g100DEz7DNt4hXnw/edit#slide=id.p11",
+  "complete": true
+ },
+ {
+  "no": "050",
+  "name": "黃偉修",
+  "nickname": "Owen Huang",
+  "trade": "小編小幫手 Ai 一站式行銷工具",
+  "tags": [],
+  "company": "週一行銷顧問有限公司 負責人",
+  "group": "企業行銷組",
+  "basic": "● 中小企業主 自媒體從業者",
+  "ideal": "● 自媒體學院 直銷 or 保險 高階從業者",
+  "dream": "● 海外代理商",
+  "have": [
+   "資安協理廠商資源"
+  ],
+  "want": [
+   "找自媒體學院或是AI課程開課單位"
+  ],
+  "expertise": [
+   "整合 FB, IG, Threads, Tiktok, Youtube, Line, Whatsapp",
+   "等社群功能 (貼文+留言+私訊 管理)",
+   "Ai智能客服(自動腳本+RAG模型)+全渠道預約系統",
+   "Ai自動廣告投廣（素材與受眾優化）",
+   "Ai廣告素材製作",
+   "Ai影片+文案+企劃製作"
+  ],
+  "slideUrl": "https://docs.google.com/presentation/d/1j9lY9x0Iswm-aR6bdR7NBVLIFX7g100DEz7DNt4hXnw/edit#slide=id.p12",
+  "complete": true
+ },
+ {
+  "no": "065",
+  "name": "陳子穎",
+  "nickname": "Michelle",
+  "trade": "水果罐頭進出口貿易",
+  "tags": [],
+  "company": "棠品居國際股份有限公司",
+  "group": "企業行銷組",
+  "basic": "熟悉食品外貿市場的人脈\n（例：食品貿易商、外銷業務、海外買家窗口、進出口公司）",
+  "ideal": "可放大市場的食品通路／餐飲集團\n（例：食品經銷商、連鎖烘焙、餐飲集團、超市通路）",
+  "dream": "掌握海外銷售通路的合作夥伴\n（例：海外進口商、國際通路採購、海外代理商 ）",
+  "have": [
+   "海外有罐頭工廠",
+   "海外有鍋具工廠",
+   "海外有清潔用品工廠"
+  ],
+  "want": [
+   "海外代理商",
+   "指導我如何運用AI在工作上的高手",
+   "補助企業布建海外通路計畫的高手"
+  ],
+  "expertise": [
+   "水果罐頭經營超過10年",
+   "擁有完整5條罐頭生產線",
+   "全世界獨家的加工技術(鮮果保存技術)",
+   "提供多樣客製化服務",
+   "服務客戶 :",
+   "7-11/MOMO/蝦皮/酷澎/PCHOME"
+  ],
+  "slideUrl": "https://docs.google.com/presentation/d/1j9lY9x0Iswm-aR6bdR7NBVLIFX7g100DEz7DNt4hXnw/edit#slide=id.p13",
+  "complete": true
+ },
+ {
+  "no": "007",
+  "name": "丘中岳",
+  "nickname": "Eric",
+  "trade": "專屬你的營運CIO ERP進銷存",
+  "tags": [
+   "數位轉型",
+   "生意商模"
+  ],
+  "company": "凱渥科技 創辦人",
+  "group": "AI&軟體組",
+  "basic": "解決 台灣CXO營運\n協助中小企業 IT規劃執行",
+  "ideal": "創建『聯盟夥伴』\n整合IT&OT 國際聯盟夥伴",
+  "dream": "擴展 集國全球化版圖\n300大上市櫃企業海外拓展",
+  "have": [
+   "專案: 蔬果業, 食品業, 生技業",
+   "資源: 阿里巴巴, Forti, Cisco等資安",
+   "資源: 北市商業會, AI POS, SLP新創",
+   "引薦: 外貿補助, 經濟部製造補助等"
+  ],
+  "want": [
+   "台北市的『跨國生意業主』",
+   "建置『企業出海媒合平台』",
+   "本月『新加坡＋大馬BNI』",
+   "合作 SPC 製造顧問＆AI 顧問"
+  ],
+  "expertise": [
+   "經歷 鼎新, SAP等 企業ERP行業解決方案",
+   "整合CRM, HR, BPM, MES, WMS, IoT經驗",
+   "豐富外商經驗, 企業CXO人脈資源",
+   "企業二代遊艇趴, 米其林餐酒會, 品酒趴"
+  ],
+  "slideUrl": "https://docs.google.com/presentation/d/1j9lY9x0Iswm-aR6bdR7NBVLIFX7g100DEz7DNt4hXnw/edit#slide=id.p20",
+  "complete": true
+ },
+ {
+  "no": "008",
+  "name": "黃筱諠",
+  "nickname": "Judy",
+  "trade": "ZOHO雲端平台建置與輔導：",
+  "tags": [
+   "ZOHO CRM客戶關係管理系統"
+  ],
+  "company": "雲梯賦能顧問有限公司",
+  "group": "AI&軟體組",
+  "basic": "需要建置或更換CRM的中小企(預算100萬以下)\n打聽過/使用過Salesforce的企業",
+  "ideal": "需要CRM及進一步與其他系統整合的企業(預算100-200萬)/人脈圈:ERP顧問&行銷/品牌顧問",
+  "dream": "無法以標準方案解決，需全客製化滿足流程管理的企業(預算200萬以上)\n專門做上市櫃製造業的管顧公司",
+  "have": [
+   "血糖儀廠商"
+  ],
+  "want": [
+   "Line Works需求者"
+  ],
+  "expertise": [
+   "數位行銷+CRM+客服平台+資料分析(BI)",
+   "AI協助填寫商機",
+   "代表客戶：91APP、迷客夏、Acer、煙波大飯店、富士電子、安東集團"
+  ],
+  "slideUrl": "https://docs.google.com/presentation/d/1j9lY9x0Iswm-aR6bdR7NBVLIFX7g100DEz7DNt4hXnw/edit#slide=id.p24",
+  "complete": true
+ },
+ {
+  "no": "009",
+  "name": "丁禹勝",
+  "nickname": "",
+  "trade": "",
+  "tags": [],
+  "company": "AI Agent 辦公室流程智働話\nmake.com 亞洲技術合作夥伴",
+  "group": "AI&軟體組",
+  "basic": "30 人以上企業，需要導入組織流程自動化，減少人力增加效率",
+  "ideal": "經銷商、教育訓練機構",
+  "dream": "跨國夥伴合作，日本、韓國、新加坡為首要",
+  "have": [
+   "花蓮、台東民宿業者"
+  ],
+  "want": [
+   "對於自動化行銷有興趣的業者",
+   "社群發文、回應管理全自動化",
+   "LINE 活動、選單、名片管理",
+   "智慧客服 + 知識庫完整串接與動態訓練"
+  ],
+  "expertise": [
+   "AI Agent"
+  ],
+  "slideUrl": "https://docs.google.com/presentation/d/1j9lY9x0Iswm-aR6bdR7NBVLIFX7g100DEz7DNt4hXnw/edit#slide=id.p19",
+  "complete": true
+ },
+ {
+  "no": "016",
+  "name": "蘇勃任",
+  "nickname": "",
+  "trade": "會計及ERP系統",
+  "tags": [
+   "IPO成本結算",
+   "Odoo ERP 開源系統"
+  ],
+  "company": "元植管理顧問",
+  "group": "AI&軟體組",
+  "basic": "直客\n進銷存及資訊系統需求\nOdoo相關顧問及客製需求\n客製化訂單及生管的企業",
+  "ideal": "上市櫃 ERP 需求\n生技科技產業\n專案型訂單流程與成本",
+  "dream": "合作夥伴-利用odoo開創事業",
+  "have": [
+   "財團法人食品工業研究所",
+   "ShopLine 電商及ERP串接",
+   "台中、台北會計師公會",
+   "台北設計師公會"
+  ],
+  "want": [
+   "專案服務型 產業:",
+   "會計師",
+   "建築師",
+   "室內裝修"
+  ],
+  "expertise": [
+   "規劃及客製 上市櫃公司 ERP及所需成本結算",
+   "國外ERP及會計需求【美國、加拿大、越南】",
+   "ERP與各大電商串接【MOMO、PCHOME】"
+  ],
+  "slideUrl": "https://docs.google.com/presentation/d/1j9lY9x0Iswm-aR6bdR7NBVLIFX7g100DEz7DNt4hXnw/edit#slide=id.p21",
+  "complete": true
+ },
+ {
+  "no": "017",
+  "name": "張仕陸",
+  "nickname": "Louis",
+  "trade": "餐廳、活動來客動線規劃",
+  "tags": [
+   "讓等待變消費，排隊就是商機！",
+   "餐飲自動化",
+   "排隊人流優化"
+  ],
+  "company": "仁貿數位 創辦人",
+  "group": "AI&軟體組",
+  "basic": "直客\n急需升級設備軟硬體餐廳(內外場)\n客服中心服務台",
+  "ideal": "業務人脈圈\n餐飲顧問、品牌規劃、市集活動公司\n(旅館/餐廳/月子中心/診所)",
+  "dream": "跨國餐飲集團數位轉型",
+  "have": [
+   "廣告架加工廠",
+   "新天地餐飲集團"
+  ],
+  "want": [
+   "大型活動策展主辦商",
+   "跨系統顧客貼標(CRM)",
+   "人工洗車預約管理困難"
+  ],
+  "expertise": [
+   "協助日商、美商，跨國CRM、ERP整合",
+   "廚房效率計算與優化",
+   "服務過500家餐廳",
+   "代表客戶:"
+  ],
+  "slideUrl": "https://docs.google.com/presentation/d/1j9lY9x0Iswm-aR6bdR7NBVLIFX7g100DEz7DNt4hXnw/edit#slide=id.p23",
+  "complete": true
+ },
+ {
+  "no": "029",
+  "name": "林育隆",
+  "nickname": "",
+  "trade": "我們的連鎖客戶有小米之家（手機連鎖）",
+  "tags": [
+   "零售POS系統",
+   "寵物POS系統",
+   "美業POS系統",
+   "餐飲POS系統"
+  ],
+  "company": "瑞乘科技 執行長",
+  "group": "AI&軟體組",
+  "basic": "有開門店的老闆\n需要建置POS系統",
+  "ideal": "連鎖門店資訊、採購窗口\n零售連鎖門市\n美業連鎖門市",
+  "dream": "有POS銷售、輔導經驗要轉換跑道的人員",
+  "have": [
+   "美工設計、印刷",
+   "室內裝修（木工、油漆）"
+  ],
+  "want": [
+   "單店或是連鎖零售店 窗口",
+   "開店顧問",
+   "有POS系統銷售或輔導經驗，業務、顧問"
+  ],
+  "expertise": [
+   "武松殿、外勞商店（零售業）、天鍋宴（火鍋連鎖）",
+   "夏沐妍（美容連鎖），我們擅長連鎖模式的POS資訊系統規畫，建置服務超過1200家門市"
+  ],
+  "slideUrl": "https://docs.google.com/presentation/d/1j9lY9x0Iswm-aR6bdR7NBVLIFX7g100DEz7DNt4hXnw/edit#slide=id.p22",
+  "complete": true
+ },
+ {
+  "no": "045",
+  "name": "陶思潔",
+  "nickname": "Jade",
+  "trade": "",
+  "tags": [
+   "AI 系統導入顧問"
+  ],
+  "company": "湧現智庫股份有限公司",
+  "group": "AI&軟體組",
+  "basic": "【直客】已規劃 AI 場景及預算的企業",
+  "ideal": "【Partner_顧問及軟體商】軟體SI或原廠顧問，合作產品客製化 AI 加值服務",
+  "dream": "大型集團AI專案負責人/數位轉型負責部門",
+  "have": [
+   "結案簡單的AI導入補助案",
+   "桌面版AI Agent 免費試用"
+  ],
+  "want": [
+   "SAP/Oracle 導入顧問公司",
+   "對AI 優化系統有興趣的客戶",
+   "對於AI 加值開發有興趣的軟體原廠顧問/代理商/SI"
+  ],
+  "expertise": [
+   "可互動數位分身"
+  ],
+  "slideUrl": "https://docs.google.com/presentation/d/1j9lY9x0Iswm-aR6bdR7NBVLIFX7g100DEz7DNt4hXnw/edit#slide=id.p25",
+  "complete": true
+ },
+ {
+  "no": "052",
+  "name": "徐誥謙",
+  "nickname": "Peter",
+  "trade": "",
+  "tags": [
+   "即時客服",
+   "精準推播",
+   "商品推薦",
+   "內容生成"
+  ],
+  "company": "以力股份有限公司 業務經理",
+  "group": "AI&軟體組",
+  "basic": "直客: 想使用Chatbot的中小企業、想做CRM B2C的公司、想將AI功能用在社群平台和網站的品牌",
+  "ideal": "國內代理商: 行銷整合、軟體開發、金流服務、系統整合商、課程訓練講師",
+  "dream": "國外代理商: 能代理平台在海外曝光、行銷的個人或公司",
+  "have": [
+   "大安區土地銀行行員",
+   "高雄信義房屋房仲",
+   "專治人工植牙和隱形矯正牙醫師",
+   "誠澈法律事務所主持律師"
+  ],
+  "want": [
+   "新加坡資訊整合商",
+   "新加坡行銷公司"
+  ],
+  "expertise": [
+   "#商品推薦 # 內容生成",
+   "O2O、社群電商全渠道整合 顧問",
+   "替SMEs提供完整、省時、平價的解決方案",
+   "強大工程師團隊, 市場最新RAG+LLM應用導入",
+   "豐富政府補助申請經驗 上下游資源整合",
+   "代表客戶: 經濟部中企署、車麗屋、宜蘭傳藝、台中葉綠宿、媽爹講故事",
+   "Chatbot(社群電商的聊天機器人）"
+  ],
+  "slideUrl": "https://docs.google.com/presentation/d/1j9lY9x0Iswm-aR6bdR7NBVLIFX7g100DEz7DNt4hXnw/edit#slide=id.p18",
+  "complete": true
+ },
+ {
+  "no": "056",
+  "name": "陳昭誠",
+  "nickname": "Jeff Chen",
+  "trade": "",
+  "tags": [
+   "20年跨國企業網路專家",
+   "VPN越南王"
+  ],
+  "company": "新加坡商第一線資訊 資深業務經理",
+  "group": "AI&軟體組",
+  "basic": "直客:\n有海外設廠的跨國企業 資訊長 / IT主管",
+  "ideal": "業務人脈圈:\nERP廠商、出海顧問\n需要大陸、越南VPN資源的夥伴",
+  "dream": "千大企業-資訊主管:",
+  "have": [
+   "AI Server 的資安方案"
+  ],
+  "want": [
+   "經驗豐富資訊經理要轉職，請歡迎引薦有資訊主管缺的企業"
+  ],
+  "expertise": [
+   "#VPN越南王",
+   "跨國 MPLS IP-VPN 與 SD-WAN服務",
+   "IDC主機代管/雲端機房/ZTNA零信任方案",
+   "Poly視訊會議+Zoom Meeting 整合方案",
+   "Palo Alto / Fortinet 防火牆租賃/託管(MSSP)",
+   "代表客戶:光寶科、仁寶電腦、研華、凱基銀行"
+  ],
+  "slideUrl": "https://docs.google.com/presentation/d/1j9lY9x0Iswm-aR6bdR7NBVLIFX7g100DEz7DNt4hXnw/edit#slide=id.p27",
+  "complete": true
+ },
+ {
+  "no": "059",
+  "name": "林志翰",
+  "nickname": "Jehon Lin",
+  "trade": "動態型AR眼鏡 (以應用場景判斷)",
+  "tags": [],
+  "company": "AR 眼鏡 (想看的資訊,隨時隨地在你眼前)",
+  "group": "AI&軟體組",
+  "basic": "移工/外勞的翻譯需求、CNC工廠、建築工地、醫療機構",
+  "ideal": "200人以上的上市櫃公司；合作夥伴 APP 工程師",
+  "dream": "Apple、Meta等公司合作",
+  "have": [
+   "電子紙 (識別證或廣告牌) & 電子書 (經書用)",
+   "3D建模 及 列印樣品",
+   "我是社區副主委",
+   "AI攝像眼鏡 &AI攝像智慧耳機",
+   "其他黑科技~"
+  ],
+  "want": [],
+  "expertise": [
+   "靜態型AR眼鏡 (以應用場景判斷)",
+   "使用場景 :",
+   "使用場景 :",
+   "產品檢測",
+   "正妹看我眼鏡很帥,",
+   "借走我的眼鏡去量",
+   "測產品",
+   "房仲接待客戶",
+   "正妹看我眼鏡很帥,借走我的眼",
+   "鏡去接待客戶",
+   "正妹帶著我眼鏡,畫面出現我的活塞",
+   "尺寸,與檢測尺寸相符並合格",
+   "正妹帶著我眼鏡,跟客戶討論需",
+   "求,眼鏡上會呈現相關資訊"
+  ],
+  "slideUrl": "https://docs.google.com/presentation/d/1j9lY9x0Iswm-aR6bdR7NBVLIFX7g100DEz7DNt4hXnw/edit#slide=id.p28",
+  "complete": true
+ },
+ {
+  "no": "060",
+  "name": "薛乃榮",
+  "nickname": "Willie",
+  "trade": "資訊系統整合：替企業省錢",
+  "tags": [],
+  "company": "圓碟資訊科技 RingDisc Information Technology",
+  "group": "AI&軟體組",
+  "basic": "IT資訊外包",
+  "ideal": "無專職IT的公司",
+  "dream": "連鎖零售門市",
+  "have": [
+   "南部老屋裝修二代負責人",
+   "成衣廠代工負責人"
+  ],
+  "want": [
+   "使用VMware/Hyper-V中小企業",
+   "民宿/商旅",
+   "智慧建築業者"
+  ],
+  "expertise": [
+   "虛擬化平台建置：統一管理介面",
+   "企業網路規劃：資安 & 無縫漫遊"
+  ],
+  "slideUrl": "https://docs.google.com/presentation/d/1j9lY9x0Iswm-aR6bdR7NBVLIFX7g100DEz7DNt4hXnw/edit#slide=id.p30",
+  "complete": true
+ },
+ {
+  "no": "062",
+  "name": "馮國倫",
+  "nickname": "Alan",
+  "trade": "「客製開發找 Alan，",
+  "tags": [],
+  "company": "言永創意資訊工作室技術長 / 全台最大龍蝦社群團長",
+  "group": "AI&軟體組",
+  "basic": "中小企業主",
+  "ideal": "中型企業（員工人數 30-100 人）、連鎖品牌、電商平台",
+  "dream": "乙方接案 / 顧問公司",
+  "have": [
+   "全台最大龍蝦社群"
+  ],
+  "want": [
+   "想長期合作，需要技術火力支援的乙方、系統整合商",
+   "想要找外部技術長的甲方"
+  ],
+  "expertise": [
+   "20 年功力幫您省時又省力！」",
+   "。20年軟體客製開發經驗",
+   "。客製化系統規劃與整合",
+   "。企業資訊技術顧問與諮詢",
+   "。AI 客製化軟體",
+   "。AI 工具企業內訓講師 (一般 AI 工具 / claude code / codex / openclaw)"
+  ],
+  "slideUrl": "https://docs.google.com/presentation/d/1j9lY9x0Iswm-aR6bdR7NBVLIFX7g100DEz7DNt4hXnw/edit#slide=id.p32",
+  "complete": true
+ },
+ {
+  "no": "",
+  "name": "林威呈",
+  "nickname": "Will",
+  "trade": "製造業 提升名單品質、解決業務帶名單離職",
+  "tags": [],
+  "company": "＃LINE 官方帳號企業級解決方案\n＃分眾管理 ＃客製開發\n＃先有關係、再賣東西",
+  "group": "AI&軟體組",
+  "basic": "製造業、中大型客戶",
+  "ideal": "廣告代理商、系統整合商",
+  "dream": "保險總公司之行銷、各大公司數位轉型部門、經營泰國市場之客戶",
+  "have": [
+   "LINE OA 軟體服務、客製化開發",
+   "產業發展顧問、系統整合諮詢",
+   "礦物進口",
+   "傳說對決 IP"
+  ],
+  "want": [
+   "製造業（維護行銷名單的長尾品質）",
+   "食品原料盤商",
+   "泰國解決方案經銷商",
+   "授權商品製造商 / 銷售商"
+  ],
+  "expertise": [
+   "快消品 客戶溝通與回購提升",
+   "藥廠 解決對醫生、病患溝通",
+   "經銷商 解決業務帶名單離職，增加中小盤、直客溝通效率",
+   "代表客戶：特斯拉、101、默德納、滿意寶寶、基恩斯特斯拉、101、默德納"
+  ],
+  "slideUrl": "https://docs.google.com/presentation/d/1j9lY9x0Iswm-aR6bdR7NBVLIFX7g100DEz7DNt4hXnw/edit#slide=id.p31",
+  "complete": true
+ },
+ {
+  "no": "021",
+  "name": "黃子芸",
+  "nickname": "Sana",
+  "trade": "智慧製造數位轉型顧問",
+  "tags": [],
+  "company": "鐿叡科技股份有限公司 CTO 技術長",
+  "group": "工廠數位轉型組",
+  "basic": "企業流程優化/ERP流程優化顧問輔導的夥伴",
+  "ideal": "想投入數位轉型智慧製造(傳產)建議100人以上",
+  "dream": "大型化學產業 上市櫃公司",
+  "have": [
+   "塑膠射出工廠",
+   "手工具工廠",
+   "台中顧問工會",
+   "政府補助顧問"
+  ],
+  "want": [
+   "有生產/進度管理困難的百人工廠",
+   "數位轉型要評估",
+   "歡迎找工廠仙姑"
+  ],
+  "expertise": [
+   "我們是同時擁有顧問與系統開發的混合型公司",
+   "10年開發技術資歷,擅長整合串接各ERP(鼎新、正航.....)",
+   "我有1200家製造業的資源",
+   "擔任20餘案計劃案的計畫主持人",
+   "獨立開發RFID理貨系統,軟硬體整合",
+   "代表客戶:中華汽車、光寶科技、惠朋國際"
+  ],
+  "slideUrl": "https://docs.google.com/presentation/d/1j9lY9x0Iswm-aR6bdR7NBVLIFX7g100DEz7DNt4hXnw/edit#slide=id.p38",
+  "complete": true
+ },
+ {
+  "no": "046",
+  "name": "陳怡明",
+  "nickname": "",
+  "trade": "",
+  "tags": [
+   "各項網路及資訊產品銷售整合維護等服務",
+   "工規及特規(軍)網路設備或客製化"
+  ],
+  "company": "邦鉑科技 業務長 CBO",
+  "group": "工廠數位轉型組",
+  "basic": "資通訊代理商或原廠",
+  "ideal": "機房建置商或營造建築技師",
+  "dream": "資訊部門主管",
+  "have": [
+   "DELL AI XE7745伺服器 測試平台租借",
+   "NVIDIA H200 *4 pic"
+  ],
+  "want": [
+   "租借AI伺服器的用戶者"
+  ],
+  "expertise": [
+   "系統功能(Data / Voice / Video)VOIP整合。",
+   "網路整合與建置：提供完整網路環境LAN / WAN整合等服務。",
+   "長距離無線傳輸 / 無線網路規劃與建置。",
+   "主機系統及儲存系統(資訊機房建置)。"
+  ],
+  "slideUrl": "https://docs.google.com/presentation/d/1j9lY9x0Iswm-aR6bdR7NBVLIFX7g100DEz7DNt4hXnw/edit#slide=id.p39",
+  "complete": true
+ },
+ {
+  "no": "049",
+  "name": "葉穎賢",
+  "nickname": "",
+  "trade": "環境與物理量在線傳感器",
+  "tags": [],
+  "company": "志禾工業股份有限公司 業務副總",
+  "group": "工廠數位轉型組",
+  "basic": "儀表經銷商",
+  "ideal": "物聯網解決方案提供者",
+  "dream": "半導體與伺服器設備製造廠",
+  "have": [
+   "廢水回收系統廠"
+  ],
+  "want": [
+   "金屬切割工具機製造廠"
+  ],
+  "expertise": [
+   "物聯網Data收集與無線傳輸",
+   "客製化SENSOR開發&生產"
+  ],
+  "slideUrl": "https://docs.google.com/presentation/d/1j9lY9x0Iswm-aR6bdR7NBVLIFX7g100DEz7DNt4hXnw/edit#slide=id.p40",
+  "complete": true
+ },
+ {
+  "no": "053",
+  "name": "王信國",
+  "nickname": "",
+  "trade": "AGV無人搬運車隊管理系統",
+  "tags": [
+   "IoT客製化軟體"
+  ],
+  "company": "文礦資訊科技有限公司 總經理",
+  "group": "工廠數位轉型組",
+  "basic": "軟體外包, 門禁訪客系統",
+  "ideal": "IoT相關客製化系統\n長照中心管理業者",
+  "dream": "想導入自動化搬運的客戶\n高級健檢中心主任",
+  "have": [
+   "能源管理顧問",
+   "AGV經銷商"
+  ],
+  "want": [
+   "健檢中心主任",
+   "醫院資訊主管"
+  ],
+  "expertise": [
+   "高級健檢系統、醫療設備數據收集判讀",
+   "室內定位系統",
+   "生產製造系統客製化",
+   "門禁、訪客系統",
+   "金屬加工製造系統(進銷存、派工、自動焊接手臂)",
+   "各類客製化軟體系統開發需求"
+  ],
+  "slideUrl": "https://docs.google.com/presentation/d/1j9lY9x0Iswm-aR6bdR7NBVLIFX7g100DEz7DNt4hXnw/edit#slide=id.p41",
+  "complete": true
+ },
+ {
+  "no": "054",
+  "name": "甘浩成",
+  "nickname": "Ken",
+  "trade": "(CNC、流水線、沖床螺絲扣件橡塑膠射出、鋁擠，四領域)",
+  "tags": [
+   "傳產製造業軟硬體系統整合、機聯網部署",
+   "MES 產業領域專用版"
+  ],
+  "company": "鞍泰智造股份有限公司 總經理",
+  "group": "工廠數位轉型組",
+  "basic": "15-150人中小型傳產製造業",
+  "ideal": "迫切想進行數位化轉型的15-150人傳產製造業",
+  "dream": "想實現無人產線的企業主",
+  "have": [
+   "與CNC、扣件、流水線、橡膠成型之製造業洽談。",
+   "本周與家登、鴻華先進、光洋科有案子洽談中"
+  ],
+  "want": [
+   "CNC加工業企業主",
+   "沖床螺絲扣件橡塑膠射出業企業主",
+   "流水線組測包加工業企業主"
+  ],
+  "expertise": [
+   "2026目標---",
+   "使用MES+ROBOT+AMR整合,實現七日無人產線，提升競爭力。"
+  ],
+  "slideUrl": "https://docs.google.com/presentation/d/1j9lY9x0Iswm-aR6bdR7NBVLIFX7g100DEz7DNt4hXnw/edit#slide=id.p42",
+  "complete": true
+ },
+ {
+  "no": "058",
+  "name": "楊仁賓",
+  "nickname": "Vincent",
+  "trade": "",
+  "tags": [
+   "物聯網數據中台",
+   "工廠設備產線數位化"
+  ],
+  "company": "義澤科技有限公司 總經理",
+  "group": "工廠數位轉型組",
+  "basic": "中小企業IT部門(IOT基礎建設)\n製造廠產線主管",
+  "ideal": "製造業二代 / 數位轉型顧問",
+  "dream": "設備商(建置IOT) / 企業二代(長期合作，創造新產品)",
+  "have": [
+   "韓馥鴻/台灣電商代營運",
+   "林昆練/媒體公關業",
+   "麥芯瑜/果汁殺菌設備"
+  ],
+  "want": [
+   "嘉義/台南/高雄/屏東",
+   "製造廠(生技/化工)",
+   "高階主管 特助 二代 老闆"
+  ],
+  "expertise": [
+   "指標客戶"
+  ],
+  "slideUrl": "https://docs.google.com/presentation/d/1j9lY9x0Iswm-aR6bdR7NBVLIFX7g100DEz7DNt4hXnw/edit#slide=id.p37",
+  "complete": true
+ },
+ {
+  "no": "061",
+  "name": "溫璥瑋",
+  "nickname": "Nick",
+  "trade": "AMR機器人應用及專案規劃",
+  "tags": [
+   "AMR車隊管理整合系統",
+   "AMR機器人"
+  ],
+  "company": "S Innovations Corp. Managing Director Taiwan",
+  "group": "工廠數位轉型組",
+  "basic": "系統整合(S/I)、工廠、醫院、倉儲、物流",
+  "ideal": "上下游合作夥伴 (包括MES、WMS、ERP、機械手臂、醫院設備商）",
+  "dream": "多國設廠製造業及跨國型醫療業者、日、泰、馬優先",
+  "have": [
+   "自動化倉儲廠商"
+  ],
+  "want": [
+   "30人以上工廠老闆",
+   "倉儲及物流業主"
+  ],
+  "expertise": [
+   "AMR車隊管理，多品牌機器人運行整合",
+   "AMR機器人應用方案整合及開發"
+  ],
+  "slideUrl": "https://docs.google.com/presentation/d/1j9lY9x0Iswm-aR6bdR7NBVLIFX7g100DEz7DNt4hXnw/edit#slide=id.p43",
+  "complete": true
+ },
+ {
+  "no": "064",
+  "name": "王國勳",
+  "nickname": "Bruce",
+  "trade": "油壓控制系統",
+  "tags": [],
+  "company": "BOSCH REXROTH 專案銷售及應用經理",
+  "group": "工廠數位轉型組",
+  "basic": "小型系統整合商(公司規模10人以內)及經銷商",
+  "ideal": "半導體設備、自動化設備、工具機設備製造商",
+  "dream": "正在開發高精度、高速度、多軸控制設備的公司 ，並擁有自主開發及應用能力",
+  "have": [
+   "得力富總經理",
+   "均華副處長",
+   "均豪處長以及副處長",
+   "業界最小48V驅動器",
+   "奈米壓印設備之油壓方案"
+  ],
+  "want": [
+   "符合CE規範的做線及接頭廠商",
+   "半導體模組經銷商",
+   "8/19~8/22自動化展"
+  ],
+  "expertise": [
+   "針對半導體-濕式加工的模組",
+   "客製化解決半導體與精密設備自動化之方案",
+   "高階機械控制系統導入",
+   "( EX: 半導體研磨機床,半導體檢測設備 )",
+   "提供客戶油壓系統節能動力站",
+   "客戶 : 大立光，弘塑，台灣應材，休斯微，台達電，康寧, 均豪"
+  ],
+  "slideUrl": "https://docs.google.com/presentation/d/1j9lY9x0Iswm-aR6bdR7NBVLIFX7g100DEz7DNt4hXnw/edit#slide=id.p44",
+  "complete": true
+ },
+ {
+  "no": "006",
+  "name": "洪子翔",
+  "nickname": "Benny",
+  "trade": "民事律師服務",
+  "tags": [],
+  "company": "育博法律事務所 法務經理",
+  "group": "企業工商組",
+  "basic": "需要法律諮詢者",
+  "ideal": "地政士、勞資顧問\n看護人員、保險業主管",
+  "dream": "運輸、物流業者",
+  "have": [
+   "北中南東地政士資源",
+   "CFP家庭理財規劃顧問師",
+   "客製化信託+家族辦公室服務",
+   "瓶裝冷泡茶公司+南投茶廠"
+  ],
+  "want": [
+   "貨運業者",
+   "交通警察"
+  ],
+  "expertise": [
+   "．服務項目：法律顧問、調解代理、訴訟代理",
+   "．常見案件類型：",
+   "交通事故．勞資爭議．債務欠款",
+   "土地分割．家事婚姻．遺囑繼承",
+   "《法律問題找育博，幫助你化干戈為玉帛》"
+  ],
+  "slideUrl": "https://docs.google.com/presentation/d/1j9lY9x0Iswm-aR6bdR7NBVLIFX7g100DEz7DNt4hXnw/edit#slide=id.p51",
+  "complete": true
+ },
+ {
+  "no": "011",
+  "name": "陳世強",
+  "nickname": "",
+  "trade": "壽險及投資型商品",
+  "tags": [
+   "儲蓄險",
+   "月配息"
+  ],
+  "company": "錠嵂保險經紀人 - 業務經理",
+  "group": "企業工商組",
+  "basic": "個人~儲蓄及投資規劃",
+  "ideal": "長照中心~長期照護保障規劃",
+  "dream": "中小企業主~稅務及資產傳承規劃",
+  "have": [
+   "團體服資源",
+   "台中蛋糕餅乾伴手禮",
+   "第三方支付"
+  ],
+  "want": [
+   "剛買房/ 剛生小孩的家庭支柱",
+   "想減輕未來孩子 教育費用壓力的父母"
+  ],
+  "expertise": [
+   "遺產稅 及 贈與稅 減免方案",
+   "資產活化/增加被動現金流",
+   "服務超過1000組家庭風險規劃",
+   "多間中小企業主勞資 及 留才計畫 顧問"
+  ],
+  "slideUrl": "https://docs.google.com/presentation/d/1j9lY9x0Iswm-aR6bdR7NBVLIFX7g100DEz7DNt4hXnw/edit#slide=id.p53",
+  "complete": true
+ },
+ {
+  "no": "025",
+  "name": "連惟眾",
+  "nickname": "",
+  "trade": "智慧財產商務律師",
+  "tags": [],
+  "company": "博盛法律事務所 律師／專利師",
+  "group": "企業工商組",
+  "basic": "有智慧財產或法律顧問需求的個人或公司。",
+  "ideal": "以品牌開發、技術開發、長期有智財維護需求的公司。",
+  "dream": "要在臺灣開展業務的海外知名品牌或企誒。",
+  "have": [
+   "智能秤生產製造商",
+   "美國合作律師",
+   "工業電腦機殼公司",
+   "營養品生技公司"
+  ],
+  "want": [
+   "有智慧財產或商務法律需求之引薦。"
+  ],
+  "expertise": [
+   "多家企業法律、智財顧問：授權契約、投資協議、經銷代理協議等各式商務法律。",
+   "智慧財產規劃及申請維護：技術品牌及創作等無形資產規劃，專利商標申請維護等。",
+   "市場競爭爭議事件處理 ：專利、商標、著作權及不公平競爭紛爭處理、訴訟代理。",
+   "法律講座 ：曾至資策會開辦資訊安全以及智慧財產之議題。"
+  ],
+  "slideUrl": "https://docs.google.com/presentation/d/1j9lY9x0Iswm-aR6bdR7NBVLIFX7g100DEz7DNt4hXnw/edit#slide=id.p50",
+  "complete": true
+ },
+ {
+  "no": "027",
+  "name": "高聖雅",
+  "nickname": "",
+  "trade": "企業成長策略",
+  "tags": [],
+  "company": "邁勢數位策略 創辦人暨總顧問",
+  "group": "企業工商組",
+  "basic": "（直客）\n家族企業二代：傳統產業、中部地區\n企業對企業(B2B) 服務業/新創出海",
+  "ideal": "（業務人脈圈）\n保險經紀人、政府補助顧問、專利智財",
+  "dream": "外商品牌來台開發B2B市場\n100萬政府補助專案合作",
+  "have": [
+   "歐洲貿易商",
+   "Startup Grind 台北"
+  ],
+  "want": [
+   "【說明會】「忙，不等於成長！」一人公司聚焦變現【實戰課】",
+   "8/20 20:00 - 21:15",
+   "Accupass報名"
+  ],
+  "expertise": [
+   "共享策略長：手工具傳產轉型電商品牌",
+   "共享財務長：室內軟裝工作室350萬貸款",
+   "AI數位轉型：產品教育訓練速度提高720倍"
+  ],
+  "slideUrl": "https://docs.google.com/presentation/d/1j9lY9x0Iswm-aR6bdR7NBVLIFX7g100DEz7DNt4hXnw/edit#slide=id.p49",
+  "complete": true
+ },
+ {
+  "no": "034",
+  "name": "陳威宇",
+  "nickname": "Dix",
+  "trade": "總經理",
+  "tags": [
+   "你的興趣，我來安排"
+  ],
+  "company": "週週趣預約平台 創辦人",
+  "group": "企業工商組",
+  "basic": "＊剛開始接案、缺乏曝光與穩定案源的專家",
+  "ideal": "＊已穩定經營，想擴展品牌與新客群的教練",
+  "dream": "＊想要打造平台的 BNI 夥伴。",
+  "have": [
+   "清潔收納整聊師團隊",
+   "花精情緒諮詢團隊",
+   "成功商務人士形象顧問"
+  ],
+  "want": [
+   "數據分析顧問",
+   "親子產業講師"
+  ],
+  "expertise": [
+   "為客人的興趣安排店家",
+   "為店家的事業安排客人",
+   "為想建立產業平台的專家顧問提供解決方案",
+   "週週趣聯誼、露營、健身、身心靈、個人形象、芳療"
+  ],
+  "slideUrl": "https://docs.google.com/presentation/d/1j9lY9x0Iswm-aR6bdR7NBVLIFX7g100DEz7DNt4hXnw/edit#slide=id.p52",
+  "complete": true
+ },
+ {
+  "no": "042",
+  "name": "張智勇",
+  "nickname": "",
+  "trade": "企業資訊系統軟體整合",
+  "tags": [
+   "SIIR政府補助顧問",
+   "數位信任-電子簽章"
+  ],
+  "company": "勇柏智能 技術顧問",
+  "group": "企業工商組",
+  "basic": "中小企業老闆、製造業、傳產\n、服務業公司行政、資訊主管\n有數位轉型需求的企業",
+  "ideal": "有 ERP／CRM／電子簽核需求公司、\n想申請政府補助或數位轉型補助的企業\n、多據點、跨部門管理的企業",
+  "dream": "*上市櫃公司\n* 集團企業\n* 政府機關合作專案\n* 長期數位轉型顧問合作客戶",
+  "have": [
+   "政府補助申請免費評估",
+   "AI流程自動化與企業資訊系統整合",
+   "協助企業數位轉型診斷與規劃",
+   "中小企業資訊顧問合作方案"
+  ],
+  "want": [
+   "有政府補助需求的中小企業主、正在規劃 AI 數位轉型的公司、需要整合 ER系統的企業、企管顧問&資訊服務商等策略合作夥伴。"
+  ],
+  "expertise": [
+   "政府補助申請與計畫輔導",
+   "電子簽章／數位信任導入",
+   "AI 流程自動化（RPA）",
+   "企業數位轉型顧問"
+  ],
+  "slideUrl": "https://docs.google.com/presentation/d/1j9lY9x0Iswm-aR6bdR7NBVLIFX7g100DEz7DNt4hXnw/edit#slide=id.p55",
+  "complete": true
+ },
+ {
+  "no": "051",
+  "name": "王梓安",
+  "nickname": "",
+  "trade": "生活百貨 讓開店與工程採購「一次搞定、更好成交」的後端支援中心",
+  "tags": [
+   "工程採購支援",
+   "開店一站式",
+   "快速補貨",
+   "成本優化",
+   "成交助攻"
+  ],
+  "company": "一日生活五金行 - 負責人",
+  "group": "企業工商組",
+  "basic": "公司採購窗口、中小企業／店面經營者 、工地現場負責人 。",
+  "ideal": "裝潢設計師／統包 、工程、水電、營造業 、早餐加盟／開店創業者及禮贈品服務 。",
+  "dream": "連鎖品牌展店負責人、大型企業採購／總務 、建商／長期工程合作單位 。",
+  "have": [
+   "企業與公會採購通路",
+   "工程與開店端需求池",
+   "大量採購商品組合"
+  ],
+  "want": [
+   "社區/公司團購窗口 (客製組合與優惠）",
+   "企業福委會/採購單位 (穩定長期合作）",
+   "活動公司/展場/開幕需求",
+   "(一次性大量採購）"
+  ],
+  "expertise": [
+   "協助開店／展店：從評估 → 規劃 → 採購一次完成",
+   "工程材料整合：清單建置、快速報價、降低採購成本",
+   "五金＋生活百貨一站式供應（不用找多家）",
+   "急件補貨支援（避免停工、避免延誤）",
+   "客戶端協助（幫你一起顧客戶、提升成交率）"
+  ],
+  "slideUrl": "https://docs.google.com/presentation/d/1j9lY9x0Iswm-aR6bdR7NBVLIFX7g100DEz7DNt4hXnw/edit#slide=id.p54",
+  "complete": true
+ },
+ {
+  "no": "",
+  "name": "劉晉誠",
+  "nickname": "Nick",
+  "trade": "記帳士",
+  "tags": [],
+  "company": "沐洸稅務記帳士事務所 顧問部經理",
+  "group": "企業工商組",
+  "basic": "中南部營業額3000萬以下，\n資金想跟銀行周轉的企業主",
+  "ideal": "地政士、勞資顧問\n放款專員、商務中心",
+  "dream": "營業額1億的企業主、想做\n傳承的企業主",
+  "have": [
+   "彰化縣傳產二代會"
+  ],
+  "want": [
+   "中南部營業額3000萬以下，想跟 銀行往來的企業主",
+   "想規避遺產贈與稅的人",
+   "資金想合法節稅引流到台灣的",
+   "企業主"
+  ],
+  "expertise": [
+   "帳務處理&報稅服務：營業稅、營所稅、扣繳申報，製作財務報表。",
+   "財 務 報 表 優 化：優化資產負債表、損益表，分析企業體質，以利跟銀行往來。",
+   "境 外 公 司 服 務：協助客戶設立合適的境外公司及開戶規劃。",
+   "個人與公司財稅規劃：企業股權變更、個人及企業節稅運用、長期財稅規劃與企業永續。"
+  ],
+  "slideUrl": "https://docs.google.com/presentation/d/1j9lY9x0Iswm-aR6bdR7NBVLIFX7g100DEz7DNt4hXnw/edit#slide=id.p56",
+  "complete": true
+ },
+ {
+  "no": "038",
+  "name": "黃建凱",
+  "nickname": "",
+  "trade": "室內設計",
+  "tags": [],
+  "company": "",
+  "group": "工程組",
+  "basic": "50坪以下有設計裝修業主",
+  "ideal": "仲介 代銷 投資客\n50坪以上有設計裝修業主",
+  "dream": "建設公司 建築師 飯店旅館業者 連鎖品牌商家 企業級客戶\n200坪以上有設計裝修業主",
+  "have": [
+   "企業貸款的資源"
+  ],
+  "want": [
+   "仲介",
+   "建案代銷",
+   "建設公司",
+   "建築師"
+  ],
+  "expertise": [
+   "服務超過100家 空間設計施工",
+   "擅長空間利用 並創造空間新價值",
+   "二十多年設計&施工經驗",
+   "客戶代表 飛利浦 施耐德電機 福容大飯店 海樂地建案 白宮行館"
+  ],
+  "slideUrl": "https://docs.google.com/presentation/d/1j9lY9x0Iswm-aR6bdR7NBVLIFX7g100DEz7DNt4hXnw/edit#slide=id.p58",
+  "complete": true
+ },
+ {
+  "no": "039",
+  "name": "蘇于棠",
+  "nickname": "Nai",
+  "trade": "全室智能規劃設計/施工/架設一條龍",
+  "tags": [],
+  "company": "金安專智能家居 | 阿匠科技",
+  "group": "工程組",
+  "basic": "1.正在裝潢有智能需求的業主",
+  "ideal": "1.代銷/租屋業者/商空設計之業務人脈\n2.有產線有機台的工程師及採購",
+  "dream": "1.有相同目標有興趣的老闆，拓展分店\n2.有空氣感測需求並正準備要量產的公司",
+  "have": [
+   "各種智能控制方案",
+   "真空管件/氣體管路訂製BELLOWS",
+   "燈具工廠(軟膜燈/晴空燈)",
+   "Sonos音響/Omada網路設備期限優惠"
+  ],
+  "want": [
+   "智能需求的業主",
+   "房仲/代銷",
+   "其他智能廠商的老闆",
+   "室內設計師們"
+  ],
+  "expertise": [
+   "智能設備經銷-各種智能環控、感測與安防",
+   "全屋智能客製，各產牌整合",
+   "攀藤科技台灣代理商-各式空氣感測器零組件"
+  ],
+  "slideUrl": "https://docs.google.com/presentation/d/1j9lY9x0Iswm-aR6bdR7NBVLIFX7g100DEz7DNt4hXnw/edit#slide=id.p59",
+  "complete": true
+ },
+ {
+  "no": "066",
+  "name": "鄭光耀",
+  "nickname": "Nelson",
+  "trade": "澳洲不動產投資",
+  "tags": [],
+  "company": "HANNAS GROUP Marketing / overseas navigator",
+  "group": "工程組",
+  "basic": "企業主想做海外配置者\n在台移民顧問、會計事務所\n計畫孩子出國讀書生活",
+  "ideal": "高資產客戶財務顧問、家族辦公室",
+  "dream": "頂級豪宅買家本人",
+  "have": [
+   "澳洲電商海外倉代發",
+   "台中汽車零配件商 / 渦輪",
+   "新創背景CEO (SaaS)",
+   "台灣頂級室內設計 工一設計",
+   "澳洲豪宅開發商 GRAYA",
+   "專營澳洲 報關物流 百事達"
+  ],
+  "want": [
+   "計畫孩子出國讀書生活",
+   "跨海生意、資產配置",
+   "進出口貿易會計"
+  ],
+  "expertise": [
+   "澳洲土地開發",
+   "住宅/商用不動產",
+   "Management Right(MR) / Motel生意買賣",
+   "Off-Market 獨家案件資訊",
+   "澳洲與國際間的經濟動向"
+  ],
+  "slideUrl": "https://docs.google.com/presentation/d/1j9lY9x0Iswm-aR6bdR7NBVLIFX7g100DEz7DNt4hXnw/edit#slide=id.p60",
+  "complete": true
+ }
+];

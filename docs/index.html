@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>BNI 華資分會｜三層引薦名冊</title>
+<meta name="robots" content="noindex, nofollow, noarchive, nosnippet">
+<meta name="googlebot" content="noindex, nofollow">
+<meta name="description" content="華資分會成員三層引薦名冊 — 輸入你手上的人脈關鍵字，快速找到最適合引薦的夥伴。">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&family=Noto+Serif+TC:wght@700;900&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="assets/styles.css">
+</head>
+<body>
+
+<header class="site-header">
+  <div class="wrap header-inner">
+    <a class="brand" href="#top">
+      <span class="brand-mark">華資</span>
+      <span class="brand-sub">BNI 分會</span>
+    </a>
+    <nav class="nav">
+      <a class="nav-link is-active" href="#directory">成員名冊</a>
+      <a class="nav-link" href="#teams">五大小組</a>
+      <a class="nav-link" href="#about">資料說明</a>
+    </nav>
+    <a class="btn-primary" id="sourceLink" href="#" target="_blank" rel="noopener">原始簡報</a>
+  </div>
+</header>
+
+<main id="top">
+  <section class="page">
+    <div class="glow glow-a"></div>
+    <div class="glow glow-b"></div>
+    <div class="wrap">
+
+      <div class="hero">
+        <span class="eyebrow">HUA ZI REFERRAL DIRECTORY</span>
+        <h1>華資 三層引薦名冊</h1>
+        <p class="lede">你手上有誰？輸入關鍵字，快速找到最適合引薦的華資夥伴。</p>
+        <p class="lede-sub">可搜尋姓名、公司、專業標籤、一般／理想／夢幻引薦與本週需求</p>
+      </div>
+
+      <div class="stats" id="stats">
+        <div class="stat"><span class="stat-num" id="statTotal">—</span><span class="stat-label">分會成員</span></div>
+        <div class="stat"><span class="stat-num" id="statComplete">—</span><span class="stat-label">已填三層引薦</span></div>
+        <div class="stat"><span class="stat-num" id="statGroups">—</span><span class="stat-label">專業小組</span></div>
+      </div>
+
+      <div class="controls" id="directory">
+        <div class="search">
+          <svg class="search-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><circle cx="11" cy="11" r="8"></circle><path d="m21 21-4.3-4.3"></path></svg>
+          <input type="text" id="q" placeholder="搜尋姓名、專業，或輸入你手上的人脈，例如：工廠、律師、電商…" autocomplete="off">
+        </div>
+        <div class="chips" id="chips"></div>
+        <div class="result-line"><span id="resultCount"></span></div>
+      </div>
+
+      <div class="table-wrap">
+        <table class="directory">
+          <thead>
+            <tr>
+              <th class="col-no">編號</th>
+              <th class="col-name">姓名</th>
+              <th class="col-biz">專業 / 公司</th>
+              <th class="col-need">正在找誰</th>
+              <th class="col-cat">所屬小組</th>
+              <th class="col-chev"></th>
+            </tr>
+          </thead>
+          <tbody id="rows"></tbody>
+        </table>
+        <p class="empty" id="empty" hidden>找不到符合的夥伴，換個關鍵字試試。</p>
+      </div>
+
+      <section class="teams" id="teams">
+        <span class="eyebrow">POWER TEAMS</span>
+        <h2>五大專業小組</h2>
+        <p class="lede-sub">各組在簡報裡盤點過的目標客戶與想補強的專業別，會前找對接窗口時很好用。</p>
+        <div class="team-grid" id="teamGrid"></div>
+      </section>
+
+      <section class="about" id="about">
+        <span class="eyebrow">DATA NOTE</span>
+        <h2>資料怎麼來的</h2>
+        <ul>
+          <li>每位夥伴的欄位直接解析自分會的「45 秒會員簡報」，沒有人工改寫內容。</li>
+          <li>「所屬小組」取自簡報中的分組隔頁，是分會真實分組，不是推導出來的。</li>
+          <li>「正在找誰」優先取本週我要，沒填時依序退回夢幻、理想、一般引薦。</li>
+          <li>簡報裡空白的欄位，這裡顯示「未填寫」，不會替他補字。</li>
+          <li>每週更新：重跑 <code>scripts/fetch → extract → parse → build</code> 即可同步最新一版簡報。</li>
+        </ul>
+      </section>
+
+    </div>
+  </section>
+</main>
+
+<footer class="site-footer">
+  <div class="wrap footer-inner">
+    <span>BNI 華資分會 — 三層引薦名冊</span>
+    <span id="footMeta"></span>
+  </div>
+</footer>
+
+<script src="data/members.js"></script>
+<script src="assets/app.js"></script>
+</body>
+</html>

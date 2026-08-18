@@ -1,0 +1,5 @@
+# 原始簡報 JSON 與 pptx，可用 scripts/fetch.sh 重抓
+data/raw/
+data/slides.json
+.venv/
+.DS_Store
