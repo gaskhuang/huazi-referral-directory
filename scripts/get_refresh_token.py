@@ -1,13 +1,17 @@
 #!/usr/bin/env python3
-"""在本機跑一次 Google OAuth，取得 GitHub Actions 要用的 refresh token。
+"""在本機跑一次 Google OAuth，把 GitHub Actions 要用的憑證直接設進 repo secrets。
 
-這支只在你自己的電腦上跑，token 直接印在你的終端機，不會傳給任何人。
-沿用 gws 已經有的 OAuth client（~/.config/gws/client_secret.json）。
+這支只在你自己的電腦上跑。預設會用 gh CLI 把三個值直接送進 GitHub，
+token 不會顯示在畫面上、也不用複製貼上。
 
 用法：
-    python3 scripts/get_refresh_token.py
+    python3 scripts/get_refresh_token.py            # 授權後直接設定 secrets
+    python3 scripts/get_refresh_token.py --print    # 只印出來，自己手動設
 """
-import http.server, json, os, secrets, sys, threading, urllib.parse, urllib.request, webbrowser
+import http.server, json, os, secrets, shutil, subprocess, sys, threading
+import urllib.parse, urllib.request, webbrowser
+
+REPO = "gaskhuang/huazi-referral-directory"
 
 CLIENT_FILE = os.path.expanduser("~/.config/gws/client_secret.json")
 SCOPE = "https://www.googleapis.com/auth/presentations.readonly"
@@ -84,16 +88,42 @@ def main():
     if not rt:
         sys.exit("✗ Google 沒有回 refresh_token，請到帳戶權限頁移除此應用後重跑。")
 
-    print("=" * 60)
-    print("以下三個值要設成 GitHub repo secrets（貼進去之後就把畫面清掉）：\n")
-    print(f"GOOGLE_CLIENT_ID     = {cid}")
-    print(f"GOOGLE_CLIENT_SECRET = {csec}")
-    print(f"GOOGLE_REFRESH_TOKEN = {rt}")
-    print("\n或直接用 gh 逐一設定（會提示你貼上值）：")
-    print("  gh secret set GOOGLE_CLIENT_ID     --repo gaskhuang/huazi-referral-directory")
-    print("  gh secret set GOOGLE_CLIENT_SECRET --repo gaskhuang/huazi-referral-directory")
-    print("  gh secret set GOOGLE_REFRESH_TOKEN --repo gaskhuang/huazi-referral-directory")
-    print("=" * 60)
+    values = {
+        "GOOGLE_CLIENT_ID": cid,
+        "GOOGLE_CLIENT_SECRET": csec,
+        "GOOGLE_REFRESH_TOKEN": rt,
+    }
+
+    if "--print" in sys.argv:
+        print("=" * 60)
+        print("以下三個值請自行設成 GitHub repo secrets，設完把畫面清掉：\n")
+        for k, v in values.items():
+            print(f"{k} = {v}")
+        print("=" * 60)
+        return
+
+    if not shutil.which("gh"):
+        sys.exit("✗ 找不到 gh CLI。改用 --print 自己設，或先安裝 gh。")
+
+    print("\n→ 用 gh 把三個值設進 GitHub repo secrets（不會顯示在畫面上）")
+    for k, v in values.items():
+        try:
+            subprocess.run(["gh", "secret", "set", k, "--repo", REPO],
+                           input=v, text=True, check=True,
+                           stdout=subprocess.DEVNULL)
+            print(f"   ✓ {k}")
+        except subprocess.CalledProcessError as e:
+            sys.exit(f"✗ 設定 {k} 失敗（gh 回傳 {e.returncode}）")
+
+    print("\n→ 立刻觸發一次 workflow 驗證")
+    try:
+        subprocess.run(["gh", "workflow", "run", "weekly-update.yml", "--repo", REPO],
+                       check=True, stdout=subprocess.DEVNULL)
+        print("   ✓ 已觸發，看執行結果：")
+        print(f"   gh run watch --repo {REPO}")
+        print(f"   或 https://github.com/{REPO}/actions")
+    except subprocess.CalledProcessError:
+        print("   ! 自動觸發失敗，到 Actions 頁面手動按 Run workflow 即可")
 
 
 if __name__ == "__main__":

@@ -76,24 +76,25 @@ scripts/
 定義在 [.github/workflows/weekly-update.yml](.github/workflows/weekly-update.yml)，
 簡報內容沒變動時不會產生空提交。
 
-### 第一次要設定的三個 secrets
+### 第一次要設定的憑證（只做一次）
 
-CI 上沒有 `gws`，改用 OAuth refresh token 直接打 Slides API。在本機跑一次：
+CI 上沒有 `gws`，改用 OAuth refresh token 直接打 Slides API。在本機跑這一行：
 
 ```bash
 python3 scripts/get_refresh_token.py
 ```
 
 它會沿用 `~/.config/gws/client_secret.json` 的 OAuth client，開瀏覽器讓你授權，
-然後把三個值印在你自己的終端機。接著設進 repo secrets：
+然後**直接用 `gh` 把三個值寫進 repo secrets 並觸發一次 workflow 驗證**。
+token 不會顯示在畫面上，也不用複製貼上。
+
+想自己手動設定就加 `--print`，它只會把值印出來：
 
 ```bash
-gh secret set GOOGLE_CLIENT_ID     --repo gaskhuang/huazi-referral-directory
-gh secret set GOOGLE_CLIENT_SECRET --repo gaskhuang/huazi-referral-directory
-gh secret set GOOGLE_REFRESH_TOKEN --repo gaskhuang/huazi-referral-directory
+python3 scripts/get_refresh_token.py --print
 ```
 
-設好之後到 repo 的 Actions 頁面按 **Run workflow** 手動跑一次，確認會通。
+設定完成後，之後每週四凌晨 2 點就會自動更新，不需要再做任何事。
 
 ### 兩個要知道的限制
 
