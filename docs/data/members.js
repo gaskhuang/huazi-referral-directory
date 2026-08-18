@@ -1,5 +1,5 @@
 window.HUAZI_META = {
- "updated": "2026-08-18",
+ "updated": "2026-08-19",
  "total": 41,
  "complete": 41,
  "groupOrder": [
@@ -148,11 +148,11 @@ window.HUAZI_MEMBERS = [
   "no": "",
   "name": "黃俊凱",
   "nickname": "",
-  "trade": "創會主席/華資籌備大使",
+  "trade": "華資董顧",
   "tags": [
-   "無線網路"
+   "企業大範圍無線網路"
   ],
-  "company": "蓋斯克科技 創辦人",
+  "company": "蓋斯克科技 ceo",
   "group": "籌備／幹部",
   "basic": "直客\n辦公室80坪以上公司總務",
   "ideal": "業務人脈圈\n商空設計師(旅館/商辦/月子中心/醫美診所)\n商空音響/政府補助顧問/Ai廠商",
