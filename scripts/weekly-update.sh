@@ -18,24 +18,30 @@ echo "=========================================="
 # launchd 的 PATH 很乾淨，把常用位置補回去
 export PATH="/opt/homebrew/bin:/usr/local/bin:$HOME/.npm-global/bin:$PATH"
 
-for cmd in gws python3 git; do
-  if ! command -v "$cmd" >/dev/null 2>&1; then
-    echo "✗ 找不到 $cmd，中止"
-    exit 1
-  fi
-done
+if ! command -v git >/dev/null 2>&1; then
+  echo "✗ 找不到 git，中止"
+  exit 1
+fi
 
-echo "→ 1/4 抓取簡報"
-./scripts/fetch.sh
+# 解析 pptx 需要 python-pptx；本機用專案 venv，沒有就建一個
+PY_BIN="$REPO/.venv/bin/python"
+if [[ ! -x "$PY_BIN" ]]; then
+  echo "→ 建立 .venv 並安裝 python-pptx"
+  python3 -m venv "$REPO/.venv"
+  "$REPO/.venv/bin/pip" install --quiet python-pptx
+fi
+if ! "$PY_BIN" -c "import pptx" 2>/dev/null; then
+  "$REPO/.venv/bin/pip" install --quiet python-pptx
+fi
 
-echo "→ 2/4 攤平版面"
-python3 scripts/extract.py
+echo "→ 1/3 抓取簡報並攤平版面"
+"$PY_BIN" scripts/fetch_public.py
 
-echo "→ 3/4 解析成員"
-python3 scripts/parse.py
+echo "→ 2/3 解析成員"
+"$PY_BIN" scripts/parse.py
 
-echo "→ 4/4 產出網站資料"
-python3 scripts/build.py
+echo "→ 3/3 產出網站資料"
+"$PY_BIN" scripts/build.py
 
 if git diff --quiet -- docs/data/members.js data/members.json; then
   echo "✓ 簡報內容沒有變動，不需要更新網站"

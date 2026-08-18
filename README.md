@@ -10,12 +10,11 @@ BNI 華資分會的成員名冊網站，把每位夥伴簡報裡的**一般引�
 簡報改完之後跑這一串就好：
 
 ```bash
-./scripts/fetch.sh && python3 scripts/extract.py && python3 scripts/parse.py && python3 scripts/build.py
+./scripts/weekly-update.sh
 ```
 
-需要先安裝並登入 [`gws`](https://github.com/) CLI（Google Workspace CLI）。
-
-跑完 `git add -A && git commit && git push`，GitHub Pages 會自動重新部署。
+會抓最新簡報、重新解析、內容有變動才 commit 並 push，GitHub Pages 隨後自動重新部署。
+不需要登入任何帳號。
 
 ## 目錄結構
 
@@ -26,8 +25,10 @@ docs/              # 網站本體（GitHub Pages 直接吃這個資料夾）
   assets/app.js
   data/members.js  # 由 scripts/build.py 產生
 scripts/
-  fetch.sh         # 從 Google Slides 抓簡報 → data/raw/deck.json
-  extract.py       # 攤平版面座標與文字 → data/slides.json
+  fetch_public.py  # 從公開匯出下載 pptx 並攤平版面 → data/slides.json（免憑證）
+  weekly-update.sh # 本機一鍵更新：抓 → 解析 → 產出 → push
+  fetch.sh         # 舊路線：透過 gws 走 Slides API（需登入，已非主要路徑）
+  extract.py       # 舊路線：攤平 Slides API 的 JSON
   parse.py         # 解析成員欄位 → data/members.json、data/intros.json
   build.py         # 打包成網站資料 → docs/data/members.js
 ```
@@ -73,38 +74,32 @@ scripts/
 ## 每週自動更新（GitHub Actions）
 
 排程：**台灣時間每週四 02:00**（workflow 裡是 UTC 週三 18:00）。
-定義在 [.github/workflows/weekly-update.yml](.github/workflows/weekly-update.yml)，
+定義在 [.github/workflows/weekly-update.yml](.github/workflows/weekly-update.yml)。
+
+**不需要任何憑證。** 簡報的共用設定是「知道連結的人都能存取」，所以 Google 的
+匯出端點不帶 token 就能下載：
+
+```
+https://docs.google.com/presentation/d/<ID>/export/pptx
+```
+
+CI 下載這份 pptx，用 python-pptx 讀版面座標，後面照舊跑 parse → build。
 簡報內容沒變動時不會產生空提交。
 
-### 第一次要設定的憑證（只做一次）
+> 注意：這條路完全依賴簡報維持「知道連結的人都能存取」。
+> 哪天改成僅限特定人員，workflow 會下載到一個很小的 HTML 錯誤頁而中止（腳本有擋），
+> 那時就得改回 OAuth 憑證的做法。
 
-CI 上沒有 `gws`，改用 OAuth refresh token 直接打 Slides API。在本機跑這一行：
-
-```bash
-python3 scripts/get_refresh_token.py
-```
-
-它會沿用 `~/.config/gws/client_secret.json` 的 OAuth client，開瀏覽器讓你授權，
-然後**直接用 `gh` 把三個值寫進 repo secrets 並觸發一次 workflow 驗證**。
-token 不會顯示在畫面上，也不用複製貼上。
-
-想自己手動設定就加 `--print`，它只會把值印出來：
+### 本機手動更新
 
 ```bash
-python3 scripts/get_refresh_token.py --print
+./scripts/weekly-update.sh
 ```
 
-設定完成後，之後每週四凌晨 2 點就會自動更新，不需要再做任何事。
+跟 CI 走完全同一條路（公開匯出 + python-pptx），一樣不需要登入。
+第一次執行會自動建 `.venv` 並裝好 python-pptx。
 
 ### 兩個要知道的限制
 
 - GitHub 的排程在整點負載高時可能延遲數分鐘到一小時，不是準點觸發。
 - **repo 連續 60 天沒有任何 commit，GitHub 會自動停用排程**。這個 repo 每週都會被 workflow 自己推一版，正常情況不會踩到；但如果簡報連兩個月都沒改，就不會有提交，那時要回 Actions 頁面手動啟用。
-
-### 本機手動更新
-
-不想等排程就直接跑（走 gws，不需要 secrets）：
-
-```bash
-./scripts/weekly-update.sh
-```

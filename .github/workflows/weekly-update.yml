@@ -23,16 +23,14 @@ jobs:
         with:
           python-version: "3.12"
 
-      - name: 抓取簡報
-        env:
-          GOOGLE_CLIENT_ID: ${{ secrets.GOOGLE_CLIENT_ID }}
-          GOOGLE_CLIENT_SECRET: ${{ secrets.GOOGLE_CLIENT_SECRET }}
-          GOOGLE_REFRESH_TOKEN: ${{ secrets.GOOGLE_REFRESH_TOKEN }}
-        run: python3 scripts/ci_fetch.py
+      - name: 安裝相依套件
+        run: pip install --quiet python-pptx
 
-      - name: 解析並產出網站資料
+      - name: 抓取簡報並攤平版面
+        run: python3 scripts/fetch_public.py
+
+      - name: 解析成員並產出網站資料
         run: |
-          python3 scripts/extract.py
           python3 scripts/parse.py
           python3 scripts/build.py
 
