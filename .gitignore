@@ -3,3 +3,4 @@ data/raw/
 data/slides.json
 .venv/
 .DS_Store
+logs/
