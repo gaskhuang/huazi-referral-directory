@@ -1,5 +1,5 @@
 window.HUAZI_META = {
- "updated": "2026-09-02",
+ "updated": "2026-09-09",
  "total": 41,
  "complete": 41,
  "groupOrder": [
@@ -192,9 +192,9 @@ window.HUAZI_MEMBERS = [
   "ideal": "想做自媒體打造個人IP",
   "dream": "連鎖加盟顧問、餐飲顧問",
   "have": [
-   "日本留學通路",
+   "品牌顧問",
    "連鎖藥局通路",
-   "泰式連鎖餐飲業者"
+   "餐飲顧問"
   ],
   "want": [
    "品牌／平面設計師",
